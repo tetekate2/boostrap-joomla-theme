@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site" method="upgrade">
+    <name>jumbotron</name>
+    <creationDate>Jan 2018</creationDate>
+    <author>Ndip Tanyi</author>
+    <authorEmail>support@ndip007.com</authorEmail>
+    <authorUrl>http://www.ndip007.com</authorUrl>
+    <copyright>Copyright (C) 2018 ndip007.com. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2 or later</license>
+    <version>1.0</version>
+    <description>Boostrap template for Joomla! </description>
+
+    <files>
+	<folder>css</folder>
+	<folder>html</folder>
+	<folder>images</folder>
+	<folder>js</folder>
+	<filename>index.php</filename>
+	<filename>index.html</filename>
+	<filename>templateDetails.xml</filename>
+
+    </files>
+
+
+    <positions>
+	<position>menu</position>
+	<position>showcase</position>
+	<position>box1</position>
+	<position>box2</position>
+	<position>box3</position>
+
+    </positions>
+
+
+    <config>
+	<fields name="params">
+		<fieldset name="general" label="General">
+			<field name="logo_text" type="text" label="Logo Text"
+				description="Enter your Logo Text"
+			/>
+			
+			<field name="copyright_text" type="text" label="Copyright   Text"
+				description="Enter your Copyright Text"
+			/>
+	</fields>
+    </config>
+</extension>
